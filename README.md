@@ -106,7 +106,7 @@ This is the structure of the files in the project:
     ├── public                  # public files (favicon, .htaccess, manifest, ...)
     ├── src                     # source files
     │   ├── components
-    │   ├── pages
+    │   ├── pages               # each page contain one module
     │   ├── resources           # images, constants and other static resources
     │   ├── store               # Redux store
     │   │   ├── actions         # store's actions
@@ -114,6 +114,7 @@ This is the structure of the files in the project:
     │   ├── styles
     │   ├── tests               # all test files
     │   ├── types               # data interfaces
+    │   ├── modules             # each module contain feature
     │   ├── utility             # utilities functions and custom components
     │   ├── App.tsx
     │   ├── index.tsx
