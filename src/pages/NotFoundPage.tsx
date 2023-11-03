@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import { ROUTES } from '../resources/routes-constants'
+import { ROUTES } from '../constants/routes-constants'
 
 const NotFoundPage: React.FC = () => {
     const navigate = useNavigate()
@@ -9,7 +9,7 @@ const NotFoundPage: React.FC = () => {
      * Call this function to redirect the user to the homepage.
      */
     const redirectToHomePage = () => {
-        navigate(ROUTES.HOMEPAGE_ROUTE)
+        navigate(ROUTES.ORDER_BOOK_ROUTE)
     }
 
     return (
